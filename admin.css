@@ -1,0 +1,6 @@
+body[data-role="admin"]{--primary:#0f766e;--primary-dark:#115e59;--soft:#ccfbf1}
+.admin-note{background:#ecfeff;border:1px solid #a5f3fc;border-radius:18px;padding:16px;color:#155e75}
+.review-box{display:grid;gap:10px}
+.comment{width:100%;min-height:70px;border:1px solid var(--line);border-radius:12px;padding:10px}
+.teacher-badge{background:#dcfce7;color:#166534}
+.danger-zone{border-color:#fecaca;background:#fff7f7}
