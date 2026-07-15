@@ -3,30 +3,18 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>StudyTrack | Student Login</title>
-  <link rel="stylesheet" href="css/style.css" />
-  <script defer src="js/student-data.js"></script>
-  <script defer src="js/auth.js"></script>
+  <title>StudyTrack - Study Planner & Attendance System</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <main class="auth-page">
-    <section class="auth-hero">
-      <div class="brand"><img src="assets/images/logo.svg" alt="StudyTrack logo"><span>StudyTrack</span></div>
-      <h1>Study planner and attendance tracker for students.</h1>
-      <p>Plan subjects, track attendance, complete tasks, and view progress reports from one clean dashboard.</p>
-      <img class="hero-img" src="assets/images/dashboard-illustration.svg" alt="Dashboard illustration">
-    </section>
+  <div class="bg-circle c1"></div>
+  <div class="bg-circle c2"></div>
+  <div class="bg-circle c3"></div>
 
-    <section class="login-card">
-      <h2>Student Login</h2>
-      <p>Select a demo student and enter the dashboard.</p>
-      <form id="studentLoginForm">
-        <label>Student</label>
-        <select id="studentSelect" required></select>
-        <button class="btn" type="submit">Enter Student Dashboard</button>
-      </form>
-      <a class="link-btn" href="admin/admin-login.html">Teacher/Admin Login</a>
-    </section>
-  </main>
+  <div id="app">
+    <div style="padding:30px;font-family:Arial">Loading StudyTrack...</div>
+  </div>
+
+  <script src="script.js"></script>
 </body>
 </html>
